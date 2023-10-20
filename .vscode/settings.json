@@ -6,5 +6,6 @@
     "editor.minimap.enabled": false,
     "workbench.editorAssociations": {
         "README.md": "vscode.markdown.preview.editor",
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
