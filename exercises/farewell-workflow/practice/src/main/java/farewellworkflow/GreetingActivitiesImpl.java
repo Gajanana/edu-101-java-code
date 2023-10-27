@@ -13,6 +13,11 @@ public class GreetingActivitiesImpl implements GreetingActivities {
     public String greetInSpanish(String name) {
         return callService("get-spanish-greeting", name);
     }
+    @Override
+    public String getFarewellInSpanish(String name) {
+        return callService("get-spanish-farewell", name);
+    }
+    
 
     /* TODO: Implement the Activity method that was defined in the
      * GreetingActivities interface. This method should call the microservice 
